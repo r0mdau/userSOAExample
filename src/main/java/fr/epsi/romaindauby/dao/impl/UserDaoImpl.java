@@ -16,16 +16,14 @@ public class UserDaoImpl extends AbstractDao<User, Long> implements UserDao {
 		super();
 	}
 
-	@Override
 	public User find(Long id) {
 		return this.find(User.class, id);
 	}
 
-	@Override
 	public User findByEmail(String email) {
 		try {
 			return (User) getHibernateTemplate().find(
-					"from user u where u.email =?", email).get(0);
+					"from User u where u.email =?", email).get(0);
 		} catch (Exception e) {
 			LOGGER.error(e.getMessage());
 			return null;
