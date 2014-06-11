@@ -1,7 +1,6 @@
 package fr.epsi.romaindauby.dao;
 
 import java.io.Serializable;
-import java.util.List;
 
 import fr.epsi.romaindauby.common.HibernateSessionUtils;
 
@@ -14,14 +13,6 @@ public abstract class AbstractDao<T, PK extends Serializable> extends HibernateS
 	@SuppressWarnings("unchecked")
 	public T find(Class<T> c, PK id) {
 		return (T) getHibernateTemplate().get(c, id);
-	}
-
-	/**
-	 * Find all objects
-	 */
-	@SuppressWarnings("unchecked")
-	public List<T> list(Class<T> c) {
-		return getHibernateTemplate().find("from " + c.getCanonicalName());
 	}
 
 	/**

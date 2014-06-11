@@ -1,17 +1,8 @@
 package fr.epsi.romaindauby.dao;
 
-import java.util.List;
-
 import fr.epsi.romaindauby.entity.User;
 
 public interface UserDao {
-
-	/**
-	 * List every objects of the selected type from the data source
-	 *
-	 * @return
-	 */
-	public List<User> list(Class<User> c);
 
 	/**
 	 * Find an object identified by an ID
