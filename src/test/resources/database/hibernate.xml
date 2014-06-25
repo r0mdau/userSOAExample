@@ -11,14 +11,6 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		<property name="dataSource">
 			<ref bean="dataSource" />
 		</property>
-
-		<!--property name="hibernateProperties">
-			<props>
-				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-				<prop key="hibernate.show_sql">true</prop>
-				<prop key="hibernate.temp.use_jdbc_metadata_defaults">false</prop>
-			</props>
-		</property-->
 		
 		<property name="hibernateProperties">
 			<props>
