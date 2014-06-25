@@ -6,7 +6,7 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<!-- Database Configuration -->
-	<import resource="../database/datasource-app.xml" />
+	<import resource="../database/datasource-test.xml" />
 	<import resource="../database/hibernate.xml" />
 
 	<!-- Auto scan the DAO components -->
