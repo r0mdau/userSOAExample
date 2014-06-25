@@ -1,0 +1,289 @@
+2014-06-25 14:45:55 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring/appContext-test.xml]
+2014-06-25 14:45:55 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/datasource-app.xml]
+2014-06-25 14:45:55 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/hibernate.xml]
+2014-06-25 14:45:55 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:45:55 CEST 2014]; root of context hierarchy
+2014-06-25 14:45:55 INFO  DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:45:55 INFO  DriverManagerDataSource:155 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-06-25 14:45:55 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2014-06-25 14:45:55 INFO  Environment:543 - Hibernate 3.3.1.GA
+2014-06-25 14:45:55 INFO  Environment:576 - hibernate.properties not found
+2014-06-25 14:45:55 INFO  Environment:709 - Bytecode provider name : javassist
+2014-06-25 14:45:55 INFO  Environment:627 - using JDK 1.4 java.sql.Timestamp handling
+2014-06-25 14:45:55 INFO  AnnotationSessionFactoryBean:746 - Building new Hibernate SessionFactory
+2014-06-25 14:45:55 INFO  AnnotationBinder:418 - Binding entity from annotated class: fr.epsi.romaindauby.entity.User
+2014-06-25 14:45:55 INFO  EntityBinder:424 - Bind entity fr.epsi.romaindauby.entity.User on table user
+2014-06-25 14:45:55 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2014-06-25 14:45:55 INFO  ConnectionProviderFactory:95 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-06-25 14:45:55 INFO  Dialect:175 - Using dialect: org.hibernate.dialect.MySQLDialect
+2014-06-25 14:45:55 INFO  TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+2014-06-25 14:45:55 INFO  TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-06-25 14:45:55 INFO  SettingsFactory:170 - Automatic flush during beforeCompletion(): disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:174 - Automatic session close at end of transaction: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:189 - Scrollable result sets: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:197 - JDBC3 getGeneratedKeys(): disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:205 - Connection release mode: on_close
+2014-06-25 14:45:55 INFO  SettingsFactory:229 - Maximum outer join fetch depth: 2
+2014-06-25 14:45:55 INFO  SettingsFactory:232 - Default batch fetch size: 1
+2014-06-25 14:45:55 INFO  SettingsFactory:236 - Generate SQL with comments: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:240 - Order SQL updates by primary key: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:244 - Order SQL inserts for batching: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:420 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-06-25 14:45:55 INFO  ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+2014-06-25 14:45:55 INFO  SettingsFactory:252 - Query language substitutions: {}
+2014-06-25 14:45:55 INFO  SettingsFactory:257 - JPA-QL strict compliance: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:262 - Second-level cache: enabled
+2014-06-25 14:45:55 INFO  SettingsFactory:266 - Query cache: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:405 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-06-25 14:45:55 INFO  SettingsFactory:276 - Optimize cache for minimal puts: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:285 - Structured second-level cache entries: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:305 - Echoing all SQL to stdout
+2014-06-25 14:45:55 INFO  SettingsFactory:314 - Statistics: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:318 - Deleted entity synthetic identifier rollback: disabled
+2014-06-25 14:45:55 INFO  SettingsFactory:333 - Default entity-mode: pojo
+2014-06-25 14:45:55 INFO  SettingsFactory:337 - Named query checking : enabled
+2014-06-25 14:45:55 INFO  SessionFactoryImpl:187 - building session factory
+2014-06-25 14:45:56 INFO  SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+2014-06-25 14:45:56 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-06-25 14:45:56 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, HSQL, MS-SQL, MySQL, Oracle, Informix, PostgreSQL, Sybase]
+2014-06-25 14:46:07 INFO  GenericApplicationContext:1042 - Closing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:45:55 CEST 2014]; root of context hierarchy
+2014-06-25 14:46:07 INFO  DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:46:07 INFO  AnnotationSessionFactoryBean:1025 - Closing Hibernate SessionFactory
+2014-06-25 14:46:07 INFO  SessionFactoryImpl:805 - closing
+2014-06-25 14:47:37 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring/appContext-test.xml]
+2014-06-25 14:47:37 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/datasource-app.xml]
+2014-06-25 14:47:37 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/hibernate.xml]
+2014-06-25 14:47:38 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:47:38 CEST 2014]; root of context hierarchy
+2014-06-25 14:47:38 INFO  DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:47:38 INFO  DriverManagerDataSource:155 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-06-25 14:47:38 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2014-06-25 14:47:38 INFO  Environment:543 - Hibernate 3.3.1.GA
+2014-06-25 14:47:38 INFO  Environment:576 - hibernate.properties not found
+2014-06-25 14:47:38 INFO  Environment:709 - Bytecode provider name : javassist
+2014-06-25 14:47:38 INFO  Environment:627 - using JDK 1.4 java.sql.Timestamp handling
+2014-06-25 14:47:38 INFO  AnnotationSessionFactoryBean:746 - Building new Hibernate SessionFactory
+2014-06-25 14:47:38 INFO  AnnotationBinder:418 - Binding entity from annotated class: fr.epsi.romaindauby.entity.User
+2014-06-25 14:47:38 INFO  EntityBinder:424 - Bind entity fr.epsi.romaindauby.entity.User on table user
+2014-06-25 14:47:38 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2014-06-25 14:47:38 INFO  ConnectionProviderFactory:95 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-06-25 14:47:38 INFO  Dialect:175 - Using dialect: org.hibernate.dialect.MySQLDialect
+2014-06-25 14:47:38 INFO  TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+2014-06-25 14:47:38 INFO  TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-06-25 14:47:38 INFO  SettingsFactory:170 - Automatic flush during beforeCompletion(): disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:174 - Automatic session close at end of transaction: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:189 - Scrollable result sets: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:197 - JDBC3 getGeneratedKeys(): disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:205 - Connection release mode: on_close
+2014-06-25 14:47:38 INFO  SettingsFactory:229 - Maximum outer join fetch depth: 2
+2014-06-25 14:47:38 INFO  SettingsFactory:232 - Default batch fetch size: 1
+2014-06-25 14:47:38 INFO  SettingsFactory:236 - Generate SQL with comments: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:240 - Order SQL updates by primary key: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:244 - Order SQL inserts for batching: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:420 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-06-25 14:47:38 INFO  ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+2014-06-25 14:47:38 INFO  SettingsFactory:252 - Query language substitutions: {}
+2014-06-25 14:47:38 INFO  SettingsFactory:257 - JPA-QL strict compliance: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:262 - Second-level cache: enabled
+2014-06-25 14:47:38 INFO  SettingsFactory:266 - Query cache: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:405 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-06-25 14:47:38 INFO  SettingsFactory:276 - Optimize cache for minimal puts: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:285 - Structured second-level cache entries: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:305 - Echoing all SQL to stdout
+2014-06-25 14:47:38 INFO  SettingsFactory:314 - Statistics: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:318 - Deleted entity synthetic identifier rollback: disabled
+2014-06-25 14:47:38 INFO  SettingsFactory:333 - Default entity-mode: pojo
+2014-06-25 14:47:38 INFO  SettingsFactory:337 - Named query checking : enabled
+2014-06-25 14:47:38 INFO  SessionFactoryImpl:187 - building session factory
+2014-06-25 14:47:38 INFO  SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+2014-06-25 14:47:38 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-06-25 14:47:38 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, HSQL, MS-SQL, MySQL, Oracle, Informix, PostgreSQL, Sybase]
+2014-06-25 14:47:53 INFO  GenericApplicationContext:1042 - Closing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:47:38 CEST 2014]; root of context hierarchy
+2014-06-25 14:47:53 INFO  DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:47:53 INFO  AnnotationSessionFactoryBean:1025 - Closing Hibernate SessionFactory
+2014-06-25 14:47:53 INFO  SessionFactoryImpl:805 - closing
+2014-06-25 14:50:59 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring/appContext-test.xml]
+2014-06-25 14:50:59 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/datasource-app.xml]
+2014-06-25 14:50:59 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/hibernate.xml]
+2014-06-25 14:50:59 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:50:59 CEST 2014]; root of context hierarchy
+2014-06-25 14:50:59 INFO  DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:50:59 INFO  DriverManagerDataSource:155 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-06-25 14:50:59 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2014-06-25 14:50:59 INFO  Environment:543 - Hibernate 3.3.1.GA
+2014-06-25 14:50:59 INFO  Environment:576 - hibernate.properties not found
+2014-06-25 14:50:59 INFO  Environment:709 - Bytecode provider name : javassist
+2014-06-25 14:50:59 INFO  Environment:627 - using JDK 1.4 java.sql.Timestamp handling
+2014-06-25 14:50:59 INFO  AnnotationSessionFactoryBean:746 - Building new Hibernate SessionFactory
+2014-06-25 14:50:59 INFO  AnnotationBinder:418 - Binding entity from annotated class: fr.epsi.romaindauby.entity.User
+2014-06-25 14:50:59 INFO  EntityBinder:424 - Bind entity fr.epsi.romaindauby.entity.User on table user
+2014-06-25 14:50:59 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2014-06-25 14:50:59 INFO  ConnectionProviderFactory:95 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-06-25 14:51:00 INFO  SettingsFactory:116 - RDBMS: MySQL, version: 5.5.37-0ubuntu0.12.04.1
+2014-06-25 14:51:00 INFO  SettingsFactory:117 - JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.30 ( Revision: alexander.soklakov@oracle.com-20140310090514-8xt1yoht5ksg2e7c )
+2014-06-25 14:51:00 INFO  Dialect:175 - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-06-25 14:51:00 INFO  TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+2014-06-25 14:51:00 INFO  TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-06-25 14:51:00 INFO  SettingsFactory:170 - Automatic flush during beforeCompletion(): disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:174 - Automatic session close at end of transaction: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:181 - JDBC batch size: 15
+2014-06-25 14:51:00 INFO  SettingsFactory:184 - JDBC batch updates for versioned data: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:189 - Scrollable result sets: enabled
+2014-06-25 14:51:00 INFO  SettingsFactory:197 - JDBC3 getGeneratedKeys(): enabled
+2014-06-25 14:51:00 INFO  SettingsFactory:205 - Connection release mode: on_close
+2014-06-25 14:51:00 INFO  SettingsFactory:232 - Default batch fetch size: 1
+2014-06-25 14:51:00 INFO  SettingsFactory:236 - Generate SQL with comments: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:240 - Order SQL updates by primary key: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:244 - Order SQL inserts for batching: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:420 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-06-25 14:51:00 INFO  ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+2014-06-25 14:51:00 INFO  SettingsFactory:252 - Query language substitutions: {}
+2014-06-25 14:51:00 INFO  SettingsFactory:257 - JPA-QL strict compliance: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:262 - Second-level cache: enabled
+2014-06-25 14:51:00 INFO  SettingsFactory:266 - Query cache: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:405 - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2014-06-25 14:51:00 INFO  RegionFactoryCacheProviderBridge:61 - Cache provider: org.hibernate.cache.HashtableCacheProvider
+2014-06-25 14:51:00 INFO  SettingsFactory:276 - Optimize cache for minimal puts: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:285 - Structured second-level cache entries: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:305 - Echoing all SQL to stdout
+2014-06-25 14:51:00 INFO  SettingsFactory:314 - Statistics: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:318 - Deleted entity synthetic identifier rollback: disabled
+2014-06-25 14:51:00 INFO  SettingsFactory:333 - Default entity-mode: pojo
+2014-06-25 14:51:00 INFO  SettingsFactory:337 - Named query checking : enabled
+2014-06-25 14:51:00 INFO  SessionFactoryImpl:187 - building session factory
+2014-06-25 14:51:00 INFO  SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+2014-06-25 14:51:00 INFO  SchemaExport:226 - Running hbm2ddl schema export
+2014-06-25 14:51:00 INFO  SchemaExport:251 - exporting generated schema to database
+2014-06-25 14:51:00 ERROR SchemaExport:348 - Unsuccessful: create table user (id bigint generated by default as identity (start with 1), email varchar(255) not null, name varchar(255) not null, password varchar(255) not null, surname varchar(255) not null, primary key (id), unique (email), unique (id))
+2014-06-25 14:51:00 ERROR SchemaExport:349 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), email varchar(255) not null, na' at line 1
+2014-06-25 14:51:00 INFO  SchemaExport:310 - Executing import script: /import.sql
+2014-06-25 14:51:01 INFO  SchemaExport:268 - schema export complete
+2014-06-25 14:51:01 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-06-25 14:51:01 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, HSQL, MS-SQL, MySQL, Oracle, Informix, PostgreSQL, Sybase]
+2014-06-25 14:51:12 INFO  GenericApplicationContext:1042 - Closing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:50:59 CEST 2014]; root of context hierarchy
+2014-06-25 14:51:12 INFO  DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:51:12 INFO  AnnotationSessionFactoryBean:1025 - Closing Hibernate SessionFactory
+2014-06-25 14:51:12 INFO  SessionFactoryImpl:805 - closing
+2014-06-25 14:51:12 INFO  SchemaExport:226 - Running hbm2ddl schema export
+2014-06-25 14:51:12 INFO  SchemaExport:251 - exporting generated schema to database
+2014-06-25 14:51:12 INFO  SchemaExport:268 - schema export complete
+2014-06-25 14:52:21 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring/appContext-test.xml]
+2014-06-25 14:52:21 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/datasource-test.xml]
+2014-06-25 14:52:21 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/hibernate.xml]
+2014-06-25 14:52:21 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:52:21 CEST 2014]; root of context hierarchy
+2014-06-25 14:52:21 INFO  DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:52:21 INFO  DriverManagerDataSource:155 - Loaded JDBC driver: org.hsqldb.jdbcDriver
+2014-06-25 14:52:21 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2014-06-25 14:52:21 INFO  Environment:543 - Hibernate 3.3.1.GA
+2014-06-25 14:52:21 INFO  Environment:576 - hibernate.properties not found
+2014-06-25 14:52:21 INFO  Environment:709 - Bytecode provider name : javassist
+2014-06-25 14:52:21 INFO  Environment:627 - using JDK 1.4 java.sql.Timestamp handling
+2014-06-25 14:52:21 INFO  AnnotationSessionFactoryBean:746 - Building new Hibernate SessionFactory
+2014-06-25 14:52:21 INFO  AnnotationBinder:418 - Binding entity from annotated class: fr.epsi.romaindauby.entity.User
+2014-06-25 14:52:21 INFO  EntityBinder:424 - Bind entity fr.epsi.romaindauby.entity.User on table user
+2014-06-25 14:52:21 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2014-06-25 14:52:21 INFO  ConnectionProviderFactory:95 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-06-25 14:52:22 INFO  SettingsFactory:116 - RDBMS: HSQL Database Engine, version: 2.0.0
+2014-06-25 14:52:22 INFO  SettingsFactory:117 - JDBC driver: HSQL Database Engine Driver, version: 2.0.0
+2014-06-25 14:52:22 INFO  Dialect:175 - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-06-25 14:52:22 INFO  TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+2014-06-25 14:52:22 INFO  TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-06-25 14:52:22 INFO  SettingsFactory:170 - Automatic flush during beforeCompletion(): disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:174 - Automatic session close at end of transaction: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:181 - JDBC batch size: 15
+2014-06-25 14:52:22 INFO  SettingsFactory:184 - JDBC batch updates for versioned data: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:189 - Scrollable result sets: enabled
+2014-06-25 14:52:22 INFO  SettingsFactory:197 - JDBC3 getGeneratedKeys(): enabled
+2014-06-25 14:52:22 INFO  SettingsFactory:205 - Connection release mode: on_close
+2014-06-25 14:52:22 INFO  SettingsFactory:232 - Default batch fetch size: 1
+2014-06-25 14:52:22 INFO  SettingsFactory:236 - Generate SQL with comments: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:240 - Order SQL updates by primary key: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:244 - Order SQL inserts for batching: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:420 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-06-25 14:52:22 INFO  ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+2014-06-25 14:52:22 INFO  SettingsFactory:252 - Query language substitutions: {}
+2014-06-25 14:52:22 INFO  SettingsFactory:257 - JPA-QL strict compliance: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:262 - Second-level cache: enabled
+2014-06-25 14:52:22 INFO  SettingsFactory:266 - Query cache: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:405 - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2014-06-25 14:52:22 INFO  RegionFactoryCacheProviderBridge:61 - Cache provider: org.hibernate.cache.HashtableCacheProvider
+2014-06-25 14:52:22 INFO  SettingsFactory:276 - Optimize cache for minimal puts: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:285 - Structured second-level cache entries: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:305 - Echoing all SQL to stdout
+2014-06-25 14:52:22 INFO  SettingsFactory:314 - Statistics: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:318 - Deleted entity synthetic identifier rollback: disabled
+2014-06-25 14:52:22 INFO  SettingsFactory:333 - Default entity-mode: pojo
+2014-06-25 14:52:22 INFO  SettingsFactory:337 - Named query checking : enabled
+2014-06-25 14:52:22 INFO  SessionFactoryImpl:187 - building session factory
+2014-06-25 14:52:22 INFO  SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+2014-06-25 14:52:22 INFO  SchemaExport:226 - Running hbm2ddl schema export
+2014-06-25 14:52:22 INFO  SchemaExport:251 - exporting generated schema to database
+2014-06-25 14:52:22 INFO  SchemaExport:310 - Executing import script: /import.sql
+2014-06-25 14:52:22 INFO  SchemaExport:268 - schema export complete
+2014-06-25 14:52:22 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-06-25 14:52:22 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, HSQL, MS-SQL, MySQL, Oracle, Informix, PostgreSQL, Sybase]
+2014-06-25 14:52:22 WARN  JDBCExceptionReporter:100 - SQL Error: -104, SQLState: 23505
+2014-06-25 14:52:22 ERROR JDBCExceptionReporter:101 - integrity constraint violation: unique constraint or index violation; SYS_CT_10031 table: USER
+2014-06-25 14:52:22 WARN  JDBCExceptionReporter:100 - SQL Error: -104, SQLState: 23505
+2014-06-25 14:52:22 ERROR JDBCExceptionReporter:101 - integrity constraint violation: unique constraint or index violation; SYS_CT_10031 table: USER
+2014-06-25 14:52:22 WARN  JDBCExceptionReporter:100 - SQL Error: -104, SQLState: 23505
+2014-06-25 14:52:22 ERROR JDBCExceptionReporter:101 - integrity constraint violation: unique constraint or index violation; SYS_CT_10031 table: USER
+2014-06-25 14:52:22 WARN  JDBCExceptionReporter:100 - SQL Error: -104, SQLState: 23505
+2014-06-25 14:52:22 ERROR JDBCExceptionReporter:101 - integrity constraint violation: unique constraint or index violation; SYS_CT_10031 table: USER
+2014-06-25 14:52:22 WARN  JDBCExceptionReporter:100 - SQL Error: -104, SQLState: 23505
+2014-06-25 14:52:22 ERROR JDBCExceptionReporter:101 - integrity constraint violation: unique constraint or index violation; SYS_CT_10031 table: USER
+2014-06-25 14:52:22 INFO  GenericApplicationContext:1042 - Closing org.springframework.context.support.GenericApplicationContext@7a1f0683: startup date [Wed Jun 25 14:52:21 CEST 2014]; root of context hierarchy
+2014-06-25 14:52:22 INFO  DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1647b29c: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:52:22 INFO  AnnotationSessionFactoryBean:1025 - Closing Hibernate SessionFactory
+2014-06-25 14:52:22 INFO  SessionFactoryImpl:805 - closing
+2014-06-25 14:52:22 INFO  SchemaExport:226 - Running hbm2ddl schema export
+2014-06-25 14:52:22 INFO  SchemaExport:251 - exporting generated schema to database
+2014-06-25 14:52:22 INFO  SchemaExport:268 - schema export complete
+2014-06-25 14:55:46 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring/appContext-test.xml]
+2014-06-25 14:55:46 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/datasource-app.xml]
+2014-06-25 14:55:46 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [database/hibernate.xml]
+2014-06-25 14:55:46 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@980b32: startup date [Wed Jun 25 14:55:46 CEST 2014]; root of context hierarchy
+2014-06-25 14:55:47 INFO  DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4d20f4c8: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:55:47 INFO  DriverManagerDataSource:155 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2014-06-25 14:55:47 INFO  Version:15 - Hibernate Annotations 3.3.1.GA
+2014-06-25 14:55:47 INFO  Environment:543 - Hibernate 3.3.1.GA
+2014-06-25 14:55:47 INFO  Environment:576 - hibernate.properties not found
+2014-06-25 14:55:47 INFO  Environment:709 - Bytecode provider name : javassist
+2014-06-25 14:55:47 INFO  Environment:627 - using JDK 1.4 java.sql.Timestamp handling
+2014-06-25 14:55:47 INFO  AnnotationSessionFactoryBean:746 - Building new Hibernate SessionFactory
+2014-06-25 14:55:47 INFO  AnnotationBinder:418 - Binding entity from annotated class: fr.epsi.romaindauby.entity.User
+2014-06-25 14:55:47 INFO  EntityBinder:424 - Bind entity fr.epsi.romaindauby.entity.User on table user
+2014-06-25 14:55:47 INFO  AnnotationConfiguration:365 - Hibernate Validator not found: ignoring
+2014-06-25 14:55:47 INFO  ConnectionProviderFactory:95 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-06-25 14:55:47 INFO  Dialect:175 - Using dialect: org.hibernate.dialect.MySQLDialect
+2014-06-25 14:55:47 INFO  TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+2014-06-25 14:55:47 INFO  TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-06-25 14:55:47 INFO  SettingsFactory:170 - Automatic flush during beforeCompletion(): disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:174 - Automatic session close at end of transaction: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:189 - Scrollable result sets: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:197 - JDBC3 getGeneratedKeys(): disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:205 - Connection release mode: on_close
+2014-06-25 14:55:47 INFO  SettingsFactory:229 - Maximum outer join fetch depth: 2
+2014-06-25 14:55:47 INFO  SettingsFactory:232 - Default batch fetch size: 1
+2014-06-25 14:55:47 INFO  SettingsFactory:236 - Generate SQL with comments: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:240 - Order SQL updates by primary key: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:244 - Order SQL inserts for batching: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:420 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-06-25 14:55:47 INFO  ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+2014-06-25 14:55:47 INFO  SettingsFactory:252 - Query language substitutions: {}
+2014-06-25 14:55:47 INFO  SettingsFactory:257 - JPA-QL strict compliance: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:262 - Second-level cache: enabled
+2014-06-25 14:55:47 INFO  SettingsFactory:266 - Query cache: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:405 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-06-25 14:55:47 INFO  SettingsFactory:276 - Optimize cache for minimal puts: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:285 - Structured second-level cache entries: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:305 - Echoing all SQL to stdout
+2014-06-25 14:55:47 INFO  SettingsFactory:314 - Statistics: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:318 - Deleted entity synthetic identifier rollback: disabled
+2014-06-25 14:55:47 INFO  SettingsFactory:333 - Default entity-mode: pojo
+2014-06-25 14:55:47 INFO  SettingsFactory:337 - Named query checking : enabled
+2014-06-25 14:55:47 INFO  SessionFactoryImpl:187 - building session factory
+2014-06-25 14:55:47 INFO  SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+2014-06-25 14:55:47 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-06-25 14:55:47 INFO  SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, HSQL, MS-SQL, MySQL, Oracle, Informix, PostgreSQL, Sybase]
+2014-06-25 14:56:00 INFO  GenericApplicationContext:1042 - Closing org.springframework.context.support.GenericApplicationContext@980b32: startup date [Wed Jun 25 14:55:46 CEST 2014]; root of context hierarchy
+2014-06-25 14:56:00 INFO  DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4d20f4c8: defining beans [dataSource,sessionFactory,UserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2014-06-25 14:56:00 INFO  AnnotationSessionFactoryBean:1025 - Closing Hibernate SessionFactory
+2014-06-25 14:56:00 INFO  SessionFactoryImpl:805 - closing
